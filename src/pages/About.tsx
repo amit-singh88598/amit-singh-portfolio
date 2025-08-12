@@ -67,7 +67,7 @@ const About: React.FC = () => {
       {/* Hero Section */}
       <section id="main-content" className="pt-20 pb-16 px-4 sm:px-6 lg:px-8" ref={heroRef}>
         <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-12 sm:mb-16 px-4">
+          <div className="text-center px-4">
             <h1 
               ref={titleRef}
               className="about-title text-3xl sm:text-4xl md:text-5xl font-bold text-secondary-900 mb-4 sm:mb-6 opacity-0"
@@ -106,7 +106,7 @@ const About: React.FC = () => {
                 Frontend Engineer & Accessibility Specialist
               </h2>
               <p className="text-lg text-secondary-700 leading-relaxed">
-                With over 4 years of experience in frontend development, I specialize in creating 
+                With over 4.5 years of experience in frontend development, I specialize in creating 
                 modern, accessible web applications using React.js, TypeScript, and cutting-edge CSS frameworks.
               </p>
               <p className="text-lg text-secondary-700 leading-relaxed">
@@ -116,11 +116,11 @@ const About: React.FC = () => {
               
               <div className="profile-stats grid grid-cols-2 gap-6 pt-6 opacity-0">
                 <div className="text-center p-4 bg-primary-50 rounded-lg hover:bg-primary-100 transition-all duration-300 hover:scale-105">
-                  <div className="text-2xl font-bold text-primary-600 mb-1">4+</div>
+                  <div className="text-2xl font-bold text-primary-600 mb-1">4.5+</div>
                   <div className="text-secondary-600">Years Experience</div>
                 </div>
                 <div className="text-center p-4 bg-primary-50 rounded-lg hover:bg-primary-100 transition-all duration-300 hover:scale-105">
-                  <div className="text-2xl font-bold text-primary-600 mb-1">2</div>
+                  <div className="text-2xl font-bold text-primary-600 mb-1">3</div>
                   <div className="text-secondary-600">Certifications</div>
                 </div>
               </div>
