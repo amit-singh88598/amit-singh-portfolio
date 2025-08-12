@@ -44,7 +44,7 @@ const Home: React.FC = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-primary-50 to-secondary-50">
       {/* Hero Section */}
-      <section id="main-content" className="pt-20 pb-16 px-4 sm:px-6 lg:px-8" ref={heroRef}>
+      <section id="main-content" className="pt-10 lg:pt-20 pb-10 lg:pb-16 px-4 sm:px-6 lg:px-8" ref={heroRef}>
         <div className="max-w-7xl mx-auto">
           <div className="text-center">
             <h1 
@@ -114,7 +114,7 @@ const Home: React.FC = () => {
       </section>
 
       {/* Key Highlights */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8" ref={highlightsRef}>
+      <section className="py-10 lg:py-16 px-4 sm:px-6 lg:px-8" ref={highlightsRef}>
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-secondary-900 mb-4">Why Choose Me</h2>

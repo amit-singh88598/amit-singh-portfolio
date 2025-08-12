@@ -97,8 +97,8 @@ const Experience: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-white">
-      <div id="main-content" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="text-center mb-12 sm:mb-16 px-4">
+      <div id="main-content" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 lg:py-16">
+        <div className="text-center mb-10 sm:mb-16 px-4">
           <h1 
             ref={titleRef}
             className="experience-title text-3xl sm:text-4xl md:text-5xl font-bold text-secondary-900 mb-4 sm:mb-6 opacity-0"
@@ -269,9 +269,9 @@ const Experience: React.FC = () => {
                   Enhanced application performance and user experience through effective frontend and API integration.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  <span className="px-3 py-1 bg-primary-400 text-primary-700 text-sm rounded-full">React.js</span>
-                  <span className="px-3 py-1 bg-primary-400 text-primary-700 text-sm rounded-full">E-commerce</span>
-                  <span className="px-3 py-1 bg-primary-400 text-primary-700 text-sm rounded-full">API Integration</span>
+                  <span className="px-3 py-1 bg-primary-100 text-primary-700 text-sm rounded-full">React.js</span>
+                  <span className="px-3 py-1 bg-primary-100 text-primary-700 text-sm rounded-full">E-commerce</span>
+                  <span className="px-3 py-1 bg-primary-100 text-primary-700 text-sm rounded-full">API Integration</span>
                 </div>
                 <a 
                   href="https://doorest.in" 

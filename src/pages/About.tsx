@@ -65,7 +65,7 @@ const About: React.FC = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-primary-50 to-secondary-50">
       {/* Hero Section */}
-      <section id="main-content" className="pt-20 pb-16 px-4 sm:px-6 lg:px-8" ref={heroRef}>
+      <section id="main-content" className="pt-10 lg:pt-20 pb-16 px-4 sm:px-6 lg:px-8" ref={heroRef}>
         <div className="max-w-7xl mx-auto">
           <div className="text-center px-4">
             <h1 
@@ -85,9 +85,9 @@ const About: React.FC = () => {
       </section>
 
       {/* Main Content */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8">
+      <section className="py-10 lg:py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <div 
                 ref={profileImageRef}
@@ -130,14 +130,14 @@ const About: React.FC = () => {
       </section>
 
       {/* Core Values */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8">
+      <section className="py-10 lg:py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="mb-16">
             <h2 className="text-3xl font-bold text-center text-secondary-900 mb-12">
               Core Values & Approach
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div className="text-center p-6 rounded-lg border border-secondary-200 hover:shadow-lg transition-shadow">
+              <div className="text-center p-5 md:p-4 lg:p-6 rounded-lg border border-secondary-200 hover:shadow-lg transition-shadow">
                 <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
                   <svg className="w-8 h-8 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
@@ -152,7 +152,7 @@ const About: React.FC = () => {
                 </p>
               </div>
 
-              <div className="text-center p-6 rounded-lg border border-secondary-200 hover:shadow-lg transition-shadow">
+              <div className="text-center p-5 md:p-4 lg:p-6 rounded-lg border border-secondary-200 hover:shadow-lg transition-shadow">
                 <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
                   <svg className="w-8 h-8 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -167,7 +167,7 @@ const About: React.FC = () => {
                 </p>
               </div>
 
-              <div className="text-center p-6 rounded-lg border border-secondary-200 hover:shadow-lg transition-shadow">
+              <div className="text-center p-5 md:p-4 lg:p-6 rounded-lg border border-secondary-200 hover:shadow-lg transition-shadow">
                 <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
                   <svg className="w-8 h-8 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
@@ -194,7 +194,7 @@ const About: React.FC = () => {
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="bg-white rounded-lg p-6 border border-secondary-200">
-                <div className="flex items-center mb-4">
+                <div className="flex items-center">
                   <div className="w-24 h-24 bg-primary-100 rounded-full flex items-center justify-center mr-4">
                     <img 
                       src={DHS}
@@ -214,7 +214,7 @@ const About: React.FC = () => {
               </div>
 
               <div className="bg-white rounded-lg p-6 border border-secondary-200">
-                <div className="flex items-center mb-4">
+                <div className="flex items-center">
                   <div className="w-24 h-24 bg-primary-100 rounded-full flex items-center justify-center mr-4">
                     <img 
                       src={DHS}
@@ -233,7 +233,7 @@ const About: React.FC = () => {
                 </div>
               </div>
               <div className="bg-white rounded-lg p-6 border border-secondary-200">
-                <div className="flex items-center mb-4">
+                <div className="flex items-center">
                   <div className="w-24 h-24 bg-primary-100 rounded-full flex items-center justify-center mr-4">
                     <img 
                       src={ABRA}
@@ -257,9 +257,9 @@ const About: React.FC = () => {
       </section>
 
       {/* Education Section */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-secondary-50">
+      <section className="py-10 lg:py-16 px-4 sm:px-6 lg:px-8 bg-secondary-50">
         <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-12 sm:mb-16 px-4">
+          <div className="text-center mb-10 sm:mb-16 px-4">
             <h2 className="about-title text-3xl font-bold text-secondary-900 mb-4 sm:mb-6">
               Education
             </h2>

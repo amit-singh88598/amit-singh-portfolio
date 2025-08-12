@@ -371,10 +371,10 @@ const Skills: React.FC = () => {
     <div className="min-h-screen bg-white">
       <div
         id="main-content"
-        className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16"
+        className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 lg:py-16"
       >
         {/* Header */}
-        <div className="text-center mb-12 sm:mb-16 px-4">
+        <div className="text-center mb-10 sm:mb-16 px-4">
           <h1 className="skills-title text-3xl sm:text-4xl md:text-5xl font-bold text-secondary-900 mb-4 sm:mb-6 opacity-0">
             Skills & Technologies
           </h1>
